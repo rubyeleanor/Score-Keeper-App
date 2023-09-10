@@ -24,3 +24,12 @@
 #playTo {
     margin-left: 10px;
 }
+
+#resetAll {
+    width: 100%;
+
+}
+
+button:hover {
+    opacity: 0.9;
+}
