@@ -1,0 +1,26 @@
+.winner {
+    color: #38b000;
+}
+
+.loser {
+    color: red;
+}
+
+#reset {
+    width: 100%;
+    background-color: red;
+}
+
+#p1Button {
+    width: 50%;
+    background-color: #0081a7;
+}
+
+#p2Button {
+    width: 50%;
+    background-color: #00afb9;
+}
+
+#playTo {
+    margin-left: 10px;
+}
