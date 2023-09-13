@@ -53,13 +53,49 @@
                             </div>
                         </div>
 
-                        <div id="gamewins">
-                            <p class="subtitle has-text-centered mt-4">Games Won</p>
-                            <h2 class="title is-2 has-text-centered mt-1"><span id="p1WinsDisplay">0</span> to <span
-                                    id="p2WinsDisplay">0</span></h2>
-                            <button class="button is-large" id="resetAll">Reset All</button>
-                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <div id="gamewins">
+                                    <h1 class="has-text-centered">Games Won</h1>
+                                    <div class="columns">
+                                        <div class="column is-one-quarter is-offset-one-quarter">
+                                            <p class="subtitle has-text-centered">
+                                                <span id="p1WinsLabel">Player 1</span>
+                                            </p>
+                                            <h2 class="title is-1 has-text-centered mt-1">
+                                                <span id="p1WinsDisplay">0</span>
+                                            </h2>
+                                        </div>
 
+                                        <div class="column is-one-quarter">
+                                            <p class="subtitle has-text-centered">
+                                                <span id="p2WinsLabel">Player 2</span>
+                                            </p>
+                                            <h2 class="title is-1 has-text-centered mt-1">
+                                                <span id="p2WinsDisplay">0</span>
+                                            </h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="is-flex is-justify-content-center">
+                                        <label for="bestOf" class="label is-large is-inline">Best of</label>
+                                        <div class="select">
+                                            <select name="" id="bestOf">
+                                                <option value="3">3</option>
+                                                <option value="5">5</option>
+                                                <option value="10">10</option>
+                                                <option value="15">15</option>
+                                                <option value="20">20</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <button class="button is-large is-danger" id="resetAll">Reset All</button>
                     </div>
                 </div>
 

@@ -8,7 +8,7 @@
 
 #reset {
     width: 100%;
-    background-color: red;
+    background-color: orange;
 }
 
 #p1Button {
@@ -25,9 +25,12 @@
     margin-left: 10px;
 }
 
+#bestOf {
+    margin-left: 10px;
+}
+
 #resetAll {
     width: 100%;
-    background-color: #c9184a;
 
 }
 
