@@ -1,3 +1,8 @@
+body {
+    height: 100vh;
+    background-image: url('../repeated-square.webp');
+}
+
 .winner {
     color: #38b000;
 }
